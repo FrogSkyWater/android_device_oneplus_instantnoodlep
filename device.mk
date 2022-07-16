@@ -44,6 +44,9 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.recovery.target.rc
 
+# Override  OTA assert
+TARGET_OTA_ASSERT_DEVICE := instantnoodlep,OnePlus8Pro
+
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.oneplus
